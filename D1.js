@@ -39,6 +39,10 @@ let number2 = 20;
 let addition = number1 + number2;
 console.log(addition);
 
+//OPPURE SI PUò FARE:
+
+console.log(number1 + number2);
+
 /* ESERCIZIO 4
  Crea una variable di nome "x" e assegna ad essa il numero 12.
 */
