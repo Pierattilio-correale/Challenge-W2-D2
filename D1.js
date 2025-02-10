@@ -87,5 +87,12 @@ const name2 = "John";
 
 console.log(name1 === name2);
 
+//Si ottiene lo stesso risultato utilizzando due modi (replace): (in questo modo sostituisco la stringa)
+
 const replacedString = name2.replace("John", "john");
 console.log(name1 === replacedString);
+
+// oppure usando toLowerCase: (in questo modo rendo la stringa da completamente maiuscola a minuscola)
+const name3 = name2.toLowerCase("john");
+
+console.log(name1 === name3);
